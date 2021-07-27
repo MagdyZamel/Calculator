@@ -12,7 +12,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
     func application(_ application: UIApplication,
                      didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        let homeViewController  = UIViewController()
+        let homeViewController: HomeViewController = Resolver.resolve()
         window?.rootViewController = homeViewController
         changeUserInterfaceStyle(style: .dark)
         return true
