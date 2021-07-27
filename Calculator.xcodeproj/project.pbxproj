@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E026E79826A4821D009464F5 /* BitcoinResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E026E79726A4821D009464F5 /* BitcoinResponse.swift */; };
+		E03DAE7B26AC52E000FEB8DD /* UIViewController+Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03DAE7A26AC52E000FEB8DD /* UIViewController+Extentions.swift */; };
 		E0BD9D6826A03A67000ABC35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0BD9D6726A03A67000ABC35 /* Assets.xcassets */; };
 		E0BD9D7626A03A68000ABC35 /* CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D7526A03A68000ABC35 /* CalculatorTests.swift */; };
 		E0BD9D8126A03A68000ABC35 /* CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D8026A03A68000ABC35 /* CalculatorUITests.swift */; };
@@ -14,6 +16,13 @@
 		E0BD9D9126A03F6E000ABC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D8F26A03F6E000ABC35 /* AppDelegate.swift */; };
 		E0BD9D9426A040D6000ABC35 /* Resolver in Frameworks */ = {isa = PBXBuildFile; productRef = E0BD9D9326A040D6000ABC35 /* Resolver */; };
 		E0BD9D9726A048D5000ABC35 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E0BD9D9626A048D5000ABC35 /* Alamofire */; };
+		E0BD9DA726A04B19000ABC35 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D9A26A04B19000ABC35 /* String+Extension.swift */; };
+		E0BD9DA826A04B19000ABC35 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D9B26A04B19000ABC35 /* Errors.swift */; };
+		E0BD9DA926A04B19000ABC35 /* FetchBitcoinValueUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9D9D26A04B19000ABC35 /* FetchBitcoinValueUseCase.swift */; };
+		E0BD9DAC26A04B19000ABC35 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9DA126A04B19000ABC35 /* NetworkClient.swift */; };
+		E0BD9DAD26A04B19000ABC35 /* InternetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9DA326A04B19000ABC35 /* InternetManager.swift */; };
+		E0BD9DAE26A04B19000ABC35 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9DA426A04B19000ABC35 /* Reachability.swift */; };
+		E0BD9DAF26A04B19000ABC35 /* Network Requests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BD9DA626A04B19000ABC35 /* Network Requests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E026E79726A4821D009464F5 /* BitcoinResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitcoinResponse.swift; sourceTree = "<group>"; };
+		E03DAE7A26AC52E000FEB8DD /* UIViewController+Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extentions.swift"; sourceTree = "<group>"; };
 		E0BD9D5B26A03A64000ABC35 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BD9D6726A03A67000ABC35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0BD9D6C26A03A67000ABC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +56,13 @@
 		E0BD9D8226A03A68000ABC35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0BD9D8E26A03F6E000ABC35 /* AppDelegate+Injection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate+Injection.swift"; sourceTree = "<group>"; };
 		E0BD9D8F26A03F6E000ABC35 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0BD9D9A26A04B19000ABC35 /* String+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		E0BD9D9B26A04B19000ABC35 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		E0BD9D9D26A04B19000ABC35 /* FetchBitcoinValueUseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchBitcoinValueUseCase.swift; sourceTree = "<group>"; };
+		E0BD9DA126A04B19000ABC35 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		E0BD9DA326A04B19000ABC35 /* InternetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetManager.swift; sourceTree = "<group>"; };
+		E0BD9DA426A04B19000ABC35 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		E0BD9DA626A04B19000ABC35 /* Network Requests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Network Requests.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +92,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E026E79626A481DA009464F5 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				E026E79726A4821D009464F5 /* BitcoinResponse.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
 		E0BD9D5226A03A64000ABC35 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +125,7 @@
 			children = (
 				E0BD9D8F26A03F6E000ABC35 /* AppDelegate.swift */,
 				E0BD9D8E26A03F6E000ABC35 /* AppDelegate+Injection.swift */,
+				E0BD9D9826A04B19000ABC35 /* Core */,
 				E0BD9D6726A03A67000ABC35 /* Assets.xcassets */,
 				E0BD9D6C26A03A67000ABC35 /* Info.plist */,
 			);
@@ -121,6 +148,62 @@
 				E0BD9D8226A03A68000ABC35 /* Info.plist */,
 			);
 			path = CalculatorUITests;
+			sourceTree = "<group>";
+		};
+		E0BD9D9826A04B19000ABC35 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				E026E79626A481DA009464F5 /* Entities */,
+				E0BD9D9926A04B19000ABC35 /* Extensions */,
+				E0BD9D9C26A04B19000ABC35 /* Use Cases */,
+				E0BD9DA026A04B19000ABC35 /* Data Layer */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E0BD9D9926A04B19000ABC35 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E03DAE7A26AC52E000FEB8DD /* UIViewController+Extentions.swift */,
+				E0BD9D9A26A04B19000ABC35 /* String+Extension.swift */,
+				E0BD9D9B26A04B19000ABC35 /* Errors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E0BD9D9C26A04B19000ABC35 /* Use Cases */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD9D9D26A04B19000ABC35 /* FetchBitcoinValueUseCase.swift */,
+			);
+			path = "Use Cases";
+			sourceTree = "<group>";
+		};
+		E0BD9DA026A04B19000ABC35 /* Data Layer */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD9DA126A04B19000ABC35 /* NetworkClient.swift */,
+				E0BD9DA226A04B19000ABC35 /* Internet */,
+				E0BD9DA526A04B19000ABC35 /* Network Requests */,
+			);
+			path = "Data Layer";
+			sourceTree = "<group>";
+		};
+		E0BD9DA226A04B19000ABC35 /* Internet */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD9DA326A04B19000ABC35 /* InternetManager.swift */,
+				E0BD9DA426A04B19000ABC35 /* Reachability.swift */,
+			);
+			path = Internet;
+			sourceTree = "<group>";
+		};
+		E0BD9DA526A04B19000ABC35 /* Network Requests */ = {
+			isa = PBXGroup;
+			children = (
+				E0BD9DA626A04B19000ABC35 /* Network Requests.swift */,
+			);
+			path = "Network Requests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,8 +342,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BD9DA726A04B19000ABC35 /* String+Extension.swift in Sources */,
+				E0BD9DA826A04B19000ABC35 /* Errors.swift in Sources */,
 				E0BD9D9126A03F6E000ABC35 /* AppDelegate.swift in Sources */,
 				E0BD9D9026A03F6E000ABC35 /* AppDelegate+Injection.swift in Sources */,
+				E026E79826A4821D009464F5 /* BitcoinResponse.swift in Sources */,
+				E0BD9DAC26A04B19000ABC35 /* NetworkClient.swift in Sources */,
+				E03DAE7B26AC52E000FEB8DD /* UIViewController+Extentions.swift in Sources */,
+				E0BD9DA926A04B19000ABC35 /* FetchBitcoinValueUseCase.swift in Sources */,
+				E0BD9DAE26A04B19000ABC35 /* Reachability.swift in Sources */,
+				E0BD9DAD26A04B19000ABC35 /* InternetManager.swift in Sources */,
+				E0BD9DAF26A04B19000ABC35 /* Network Requests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
